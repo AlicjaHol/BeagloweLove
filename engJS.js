@@ -1,12 +1,10 @@
 var slideIndex = 1;
-//showSlides(slideIndex);
 
-// Next/previous controls
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -43,7 +41,7 @@ function pokaz(id)
 }
 
 function pokazGlowna(){
-	tresc='<img src="beagle.jpg" style="width:30%" align="left" hspace="20">';
+	tresc='<img src="img/beagle.jpg" alt="picture of a Beagle" style="width:30%;margin:20px; float:left;">';
 	
 	tresc+='<h1>Welcome!</h1> ';
 tresc+='<p> Welcome to the Beagles website. If you want to know more about this breed, see "About breed" tab. '+
@@ -62,7 +60,7 @@ function pokazRase(){
 
 
  tresc ='<h1>About breed</h1> <p>Beagles are known for their beautiful appearance and interesting character. How did these hunting dogs find way to our couches? Let\'s find out more about this wonderful breed. </p>';
- tresc+='<img  src="beagle1.jpg"  alt=" Beagle picture" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
+ tresc+='<img  src="img/beagle1.jpg"  alt=" Beagle picture" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
  tresc+='<h2>Character</h2>';
 tresc+='<p>These hunting dogs have only recently been bred as domestic and family dogs, so keep in mind that in many cases their behavior will be dictated by instinct. ';
 tresc+='Beagles are mischevious dogs with a happy temper. They are friendly and gentle with both household members and strangers, so they are not suitable as guard dogs, but thanks to the lack of aggression, they will be great companions for children. ';
@@ -74,7 +72,7 @@ tresc+='<p>The Beagle is a hunting dog with an extremely sensitive sense of smel
 tresc+='In addition to hunting, Beagles are sometimes used to detect drugs and smuggled food at airports.';
 tresc+='They also work well in dog therapy. ';
 tresc+='</p>';
- tresc+='<img  src="beagle3.jpg"  alt="small Beagle picture" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
+ tresc+='<img  src="img/beagle3.jpg"  alt="small Beagle picture" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
 tresc+='<h2> Upbringing </h2>';
 tresc+='<p> Beagles are clever and stubborn, which is why they require consistency and determination from the very first moment.';
 tresc+='However, keep in mind that these dogs are very sensitive and require positive training. When treated too harshly, they can become disobedient or become extremely shy. ';
@@ -90,7 +88,7 @@ tresc+='They have strong, relatively short legs which, however, allow them to ru
 tresc+='Beagle\'s head is quite long, with distinctive hanging ears. ';
 tresc+='They are short-haired dogs with three (black, fawn and white) or two (most often white with fawn, red or lemon) colors. According to the breed standard, the tail end must necessarily be white. ';
 tresc+='</p>';
- tresc+='<img  src="beagle2.jpg"  alt="Beagle with a girl" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
+ tresc+='<img  src="img/beagle2.jpg"  alt="Beagle with a girl" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
 tresc+='<h2>Who is this dog for</h2>';
 tresc+='<p>Beagles are not suitable for busy people who spend most of the day outside the home. They are also not good for people who are looking for an obedient, easy-to-train dog. ';
 tresc+='A Beagle owner should be active, patient, understanding, but consistent. He must pay a lot of attention to the dog. ';
@@ -106,7 +104,7 @@ tresc+='</p>';
 function pokazMiesiace(){
 	tresc='<h2> Neonatal stage - 0 to 12 days </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_mala.png" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_mala.png" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka in first days of life.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>At birth, the puppy is blind and deaf, so it initially explores the world through his other senses. ';
@@ -115,7 +113,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Transitional stage - from 13th to 20th day </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_mala2.jpeg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_mala2.jpeg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka in first weeks of life.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>Puppies are livelier and begin to play with each other. At this age they learn the so-called bite inhibition - how hard they can bite without causing pain. ';
@@ -123,9 +121,9 @@ tresc+='</figure>';
 	tresc+='Contact with people is also important at this stage. At the end of the third week, the dogs begin to eat from the bowl and walk on all fours instead of crawling. ';
 	tresc+='At the beginning of the transition period, puppies open their eyes and at the end they begin to hear. ';
 	tresc+='</p>';
-	tresc+='<h2>SOcialization stage - from 4th to 12th week </h2>';
+	tresc+='<h2>Socialization stage - from 4th to 12th week </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_8tyg.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_8tyg.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka at the age of 8 weeks.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>This is a very important stage in a dog\'s life and we should take advantage of it. ';
@@ -139,7 +137,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Youth stage - from 3rd to about 6th month </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_zalew.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_zalew.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka at the age of 4 months.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>During this period, differences in development depending on the breed begin to become apparent - in general, large breed dogs mature a little more slowly than smaller dogs. ';
@@ -149,7 +147,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Maturation stage - from 6th to about 14th month </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="dorosly_beagle.jpg" alt="Young Beagle" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/dorosly_beagle.jpg" alt="Young Beagle" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Young Beagle.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>This is a period of rebellion that some dogs go through more stormily, others less. There are major hormonal changes in the dog\'s body.';
@@ -157,7 +155,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Adult stage - reached after from 1 to about 4 years </h2>';
 		tresc+='<figure>';
-  tresc+='<img src="beagle_spi.jpg" alt="Sleeping Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/beagle_spi.jpg" alt="Sleeping Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Adult, calmer Beagle.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>During this period, dogs have a fully developed psyche and have reached their target size and appearance physically. ';
@@ -166,7 +164,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Senility stage </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="old-dog.jpg" alt="Old dog" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/old-dog.jpg" alt="Old dog" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Elderly dog.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>We can talk about old age in a dog at various ages, depending on the breed and size. ';
@@ -186,7 +184,7 @@ function pokazPorady(){
 	
 	tresc='<h2>How to feed a Beagle?</h2>';
 	tresc+='<p>';
-  tresc+='<img src="infografika.jpg" style="width:20%" align="left" hspace="20">';
+  tresc+='<img src="img/infografika.jpg" alt="Infographics feeding" style="width:20%; float:left; margin:20px;" >';
 
   tresc+=' Beagles are known to be voracious. When left unattended, Beagle can eat just about anything (except for the boring dog food it eats every day). ';
   tresc+='Remember what is poisonous to your dog and what should be kept out of its reach, e.g. grapes, raisins, and avocados. ';
@@ -200,11 +198,21 @@ function pokazPorady(){
   tresc+='You can also feed your pet with eggs, rice, noodles, oatmeal, most vegetables and fruits (e.g. boiled carrots regulate the digestive system very well). ';
   tresc+='We can also give the dog a bone to chew on, but only if it is large enough not to choke on it. ';
   tresc+='</p>';
+  tresc+='<h2> Check if your puppy\'s weight is correct for its age </h2>';
+  tresc+='<p>Enter your puppy\'s age (in full months):</p> <input type="text" id="wiek"> <br> ';
+  tresc+='<p>Choose your puppy\'s gender:</p>'+
+'<label for="male"><input type="radio" id="male" name="gender" value="male">Male</label><br>'+
 
+'<label for="female"><input type="radio" id="female" name="gender" value="female">Female</label>';
+tresc+='<br>';
+tresc+='<input type="button" value="Check weight" onclick =sprawdz_wage()>';
+tresc+='<br>';
+tresc+='<div id="waga">';
+tresc+='</div>';
 
 tresc+='<h2> What should a walk be like?</h2>';
 tresc+='<p>';
-  tresc+='<img src="infografika2.jpg" style="width:20%" align="right" hspace="20">';
+  tresc+='<img src="img/infografika2.jpg" alt="Infographics walk" style="width:20%; float:right; margin:20px" >';
   tresc+='There are two schools of walking the Beagle. Some say to unleash him, others say never to let him go, because he will run away. ';
   tresc+='The Beagle is a hunting dog, so if it catches a trail it will run after it, regardless of our calls. ';
   tresc+='If we want to let the dog off the leash, it is worth practicing recalling from an early age, and do it only in places where it is safe to let the dog go. ';
@@ -226,7 +234,7 @@ tresc+='<p>';
 
 
 tresc+='<p>';
-tresc+='<img src="infografika3.jpg" style="width:20%" align="left" hspace="20">';
+tresc+='<img src="img/infografika3.jpg" alt="Infographics vet" style="width:20%; float: left; margin:20px;" >';
 
 tresc+='Of course, you have to remember about regular vaccinations, deworming and administering a tick protection (pills, drops or a collar). ';
   tresc+='Major health problems include ear diseases. Ears should be cleaned regularly with sticks (ask your vet to show you how to do this the first time). ';
@@ -245,48 +253,90 @@ tresc+='Of course, you have to remember about regular vaccinations, deworming an
 
 	return tresc;
 }
-
+function sprawdz_wage(){
+	
+	var wiek=document.getElementById("wiek").value;
+	wiek=parseInt(wiek);
+	var plec;
+	if(document.getElementById("male").checked) {plec="samiec";}
+	else if(document.getElementById("female").checked) {plec="samica";}
+	if(plec=="samica"){
+		switch(wiek){
+			case 1: document.getElementById("waga").innerHTML='Correct weight is about 1.5kg'; break;
+			case 2: document.getElementById("waga").innerHTML='Correct weight is about 3.4kg'; break;
+			case 3: document.getElementById("waga").innerHTML='Correct weight is about 5kg'; break;
+			case 4: document.getElementById("waga").innerHTML='Correct weight is about 7kg'; break;
+			case 5: document.getElementById("waga").innerHTML='Correct weight is about 8kg'; break;
+			case 6: document.getElementById("waga").innerHTML='Correct weight is about 9kg'; break;
+			case 7: document.getElementById("waga").innerHTML='Correct weight is about 10kg'; break;
+			case 8: document.getElementById("waga").innerHTML='Correct weight is about 10.5kg'; break;
+			case 9: document.getElementById("waga").innerHTML='Correct weight is about 10.8g'; break;
+			case 10: document.getElementById("waga").innerHTML='Correct weight is about 11kg'; break;
+			case 11: document.getElementById("waga").innerHTML='Correct weight is about 12kg'; break;
+			case 12: document.getElementById("waga").innerHTML='Correct weight is about 13kg'; break;
+			default: document.getElementById("waga").innerHTML='Correct weight for adult Beagle female is about 13kg'; break;
+		}
+	}
+	else if(plec=="samiec"){
+		switch(wiek){
+			case 1: document.getElementById("waga").innerHTML='Correct weight is about 2kg'; break;
+			case 2: document.getElementById("waga").innerHTML='Correct weight is about 3-4kg'; break;
+			case 3: document.getElementById("waga").innerHTML='Correct weight is about 6kg'; break;
+			case 4: document.getElementById("waga").innerHTML='Correct weight is about 8kg'; break;
+			case 5: document.getElementById("waga").innerHTML='Correct weight is about 10kg'; break;
+			case 6: document.getElementById("waga").innerHTML='Correct weight is about 12kg'; break;
+			case 7: document.getElementById("waga").innerHTML='Correct weight is about 13kg'; break;
+			case 8: document.getElementById("waga").innerHTML='Correct weight is about 14kg'; break;
+			case 9: document.getElementById("waga").innerHTML='Correct weight is about 15kg'; break;
+			case 10: document.getElementById("waga").innerHTML='Correct weight is about 16kg'; break;
+			case 11: document.getElementById("waga").innerHTML='Correct weight is about 17kg'; break;
+			case 12: document.getElementById("waga").innerHTML='Correct weight is about 18kg'; break;
+			default: document.getElementById("waga").innerHTML='Correct weight for adult Beagle male is about 18kg'; break;
+		}
+	}
+	
+}
 function pokazGalerie(){
 
 	tresc='<h2>Pictures of Bianka</h2>';
 tresc+='<div class="slideshow-container">'+
 '<div class="mySlides fade">'+
     '<div class="numbertext">1 / 7</div>'+
-    '<img src="img7.jpg" style="width:100%">'+
+    '<img src="img/img7.jpg" alt="Short walk" style="width:100%">'+
     '<div class="text">Short walk</div>'+
   '</div>'+
 
 
   '<div class="mySlides fade">'+
     '<div class="numbertext">2 / 7</div>'+
-    '<img src="img2.jpg" style="width:100%">'+
+    '<img src="img/img2.jpg" alt="Bianka in winter jacket" style="width:100%">'+
     '<div class="text">Bianka in winter jacket</div>'+
   '</div>'+
 
  '<div class="mySlides fade">'+
     '<div class="numbertext">3 / 7</div>'+
-    '<img src="img3.jpg" style="width:100%">'+
+    '<img src="img/img3.jpg" alt="Bianka at Zalew Zemborzycki for the first time" style="width:100%">'+
     '<div class="text">Bianka at Zalew Zemborzycki for the first time</div>'+
   '</div>'+
    '<div class="mySlides fade">'+
     '<div class="numbertext">4 / 7</div>'+
-    '<img src="img4.jpg" style="width:100%">'+
+    '<img src="img/img4.jpg" alt="First day at home" style="width:100%">'+
     '<div class="text">First day at home</div>'+
   '</div>'+
     '<div class="mySlides fade">'+
     '<div class="numbertext">5 / 7</div>'+
-    '<img src="img5.jpg" style="width:100%">'+
+    '<img src="img/img5.jpg" alt="Playing with bigger friend" style="width:100%">'+
     '<div class="text">Playing with bigger friend</div>'+
   '</div>'+
     
     '<div class="mySlides fade">'+
     '<div class="numbertext">6 / 7</div>'+
-    '<img src="img6.jpg" style="width:100%">'+
+    '<img src="img/img6.jpg" alt="Visiting friends at birthday party" style="width:100%">'+
     '<div class="text">Visiting friends at birthday party</div>'+
   '</div>'+
     '<div class="mySlides fade">'+
     '<div class="numbertext">7 / 7</div>'+
-    '<img src="img1.jpg" style="width:100%">'+
+    '<img src="img/img1.jpg" alt="Bianka in her den" style="width:100%">'+
     '<div class="text">Bianka in her den</div>'+
   '</div>'+
 
@@ -323,7 +373,7 @@ alert("If your e-mail address was correct, the message is sent.");
 }
 function pokazKontakt(){
 	tresc='<h2>About me</h2>';
-tresc+='<img src="autorki.jpg" style="width:60%;display:block; margin-left: auto; margin-right: auto;">';
+tresc+='<img src="img/autorki.jpg" alt="Author with her dog" style="width:60%;display:block; margin-left: auto; margin-right: auto;">';
 
 
 tresc+='<p>My name is Alicja and my Beagle here is Bianka. We have been together since summer 2020. Taking care of Bianka takes me most of my time. ';

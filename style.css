@@ -1,4 +1,4 @@
- {padding:0;margin:0;}
+ /*{padding:0;margin:0;}*/
 
  
 
@@ -27,6 +27,10 @@ aside nav ul li {margin-bottom:1px;}
 aside nav ul li button {display:block;text-decoration:none;color:#000;background:#cc6600;padding:8px 20px; width:200px}
 
 aside nav ul li button:hover{background:#212121;color:#FFF;}
+
+aside nav ul li button.english{height:50px;background-image: url("img/english_button.png");}
+
+aside nav ul li button.polski{height:50px;background-image: url("img/polski_button.png");}
 
 
 

@@ -1,12 +1,11 @@
 var slideIndex = 1;
-//showSlides(slideIndex);
 
-// Next/previous controls
+
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -43,7 +42,7 @@ function pokaz(id)
 }
 
 function pokazGlowna(){
-	tresc='<img src="beagle.jpg" style="width:30%" align="left" hspace="20">';
+	tresc='<img src="img/beagle.jpg" alt="zdjęcie Beagla" style="width:30%;margin:20px; float:left;" > ';
 	
 	tresc+='<h1>Witaj!</h1> <p> Witam na stronie poświęconej psom rasy Beagle. Jeśli chcesz się dowiedzieć więcej o tej rasie, zajrzyj do zakładki "O rasie". ';
 	tresc+='Jeśli chcesz poczytać ogólnie o rowzoju psów, włącz zakładkę "Etapy życia psa". ';
@@ -61,7 +60,7 @@ function pokazRase(){
 
 
  tresc ='<h1>Opis rasy</h1> <p>Beagle wyróżniają się pięknym wyglądem oraz ciekawym usposobieniem. Skąd psy myśliwskie wzięły się na naszych kanapach? Dowiedzmy się więcej o tej cudownej rasie. </p>';
- tresc+='<img  src="beagle1.jpg"  alt="Zdjęcie Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
+ tresc+='<img  src="img/beagle1.jpg"  alt="Zdjęcie Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
  tresc+='<h2>Charakter</h2>';
 tresc+='<p>Te psy myśliwskie dopiero od niedawna są hodowane jako psy domowe i rodzinne, dlatego należy pamiętać, że w wielu przypadkach ich zachowanie będzie podyktowane instynktem. ';
 tresc+='Beagle to łobuzy o wesołym usposobieniu. Są przyjazne i łagodne zarówno dla domowników, jak i dla obcych, dlatego nie nadają się na psy stróżujące, ale dzięki brakowi agresji będą świetnymi kompanami dla dzieci. ';
@@ -73,7 +72,7 @@ tresc+='<p>Beagle to pies myśliwski o niezwykle czułym węchu. Jest wytrzymał
 tresc+='Oprócz polowań Beagle bywają używane m. in. do wykrywania narkotyków i przemycanej żywności na lotniskach. ';
 tresc+='Sprawdzają się także w dogoterapii. ';
 tresc+='</p>';
- tresc+='<img  src="beagle3.jpg"  alt="Zdjęcie Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
+ tresc+='<img  src="img/beagle3.jpg"  alt="Zdjęcie Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
 tresc+='<h2> Wychowanie </h2>';
 tresc+='<p> Beagle są sprytne i uparte, dlatego już od pierwszych chwil wymagają konsekwencji i stanowczości. ';
 tresc+='Należy jednak pamiętać, że te psy są bardzo wrażliwe, więc wymagają pozytywnych bodźców w szkoleniu. Traktowane zbyt ostro mogą stać się nieposłuszne lub zamknąć się w sobie. ';
@@ -90,7 +89,7 @@ tresc+='Mają silne, stosunkowo krótkie nogi, które jednak pozwalają na bardz
 tresc+='Głowa Beagla jest dość długa, z charakterystycznymi zwisającymi uszami. ';
 tresc+='Są to psy krótkowłose o umaszczeniu tricolor (czarny, płowy i biały) lub bicolor (najczęściej biały z płowym, rudym lub cytrynowym). Według wzorca rasy, koniec ogona musi koniecznie być biały.';
 tresc+='</p>';
- tresc+='<img  src="beagle2.jpg"  alt="Zdjęcie Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
+ tresc+='<img  src="img/beagle2.jpg"  alt="Zdjęcie Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;"/>';
 tresc+='<h2>Dla kogo taki pies</h2>';
 tresc+='<p>Beagle nie nadają się dla osób zapracowanych, które większość dnia spędzają poza domem. Również nie są dobre dla osób, które szukają psa posłusznego, łatwego do ułożenia. ';
 tresc+='Właściciel Beagla powinien być aktywny, cierpliwy, wyrozumiały, ale konsekwentny. Musi poświęcać psu dużo uwagi. ';
@@ -106,7 +105,7 @@ tresc+='</p>';
 function pokazMiesiace(){
 	tresc='<h2> Etap neonatalny - 0 do 12 dni </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_mala.png" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_mala.png" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka w pierwszych dniach życia.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>Po narodzinach szczenię jest ślepe i głuche, więc początkowo poznaje świat za pomocą pozostałych zmysłów. ';
@@ -115,7 +114,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Etap przejściowy - od 13 do 20 dnia </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_mala2.jpeg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_mala2.jpeg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka w pierwszych tygodniach życia.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>Szczeniaki są bardziej ruchliwe i zaczynają bawić się ze sobą. W tym wieku uczą się tzw. inhibicji gryzienia - czyli jak mocno mogą ugryźć, aby nie sprawić bólu. ';
@@ -125,7 +124,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Etap socjalizacji - od 4 do 12 tygodnia </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_8tyg.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_8tyg.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka w wieku 8 tygodni.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>Jest to bardzo ważny etap w życiu psa i należy odpowiednio go wykorzystać. ';
@@ -139,7 +138,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Etap młodzieńczy - od 3 do około 6 miesiąca </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="bianka_zalew.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/bianka_zalew.jpg" alt="Bianka" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Bianka w wieku 4 miesięcy.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>W tym okresie zaczynają być widoczne różnice w rozwoju w zależności od rasy - generalnie psy dużych ras dojrzewają nieco wolniej niż mniejszych. ';
@@ -149,7 +148,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Etap dojrzewania - od 6 do około 14 miesiąca </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="dorosly_beagle.jpg" alt="Młody Beagle" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/dorosly_beagle.jpg" alt="Młody Beagle" style="width:50%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Młody Beagle.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>Jest to okres buntu, który jedne psy przechodzą bardziej burzliwie, drugie mniej. W organizmie psa zachodzą duże zmiany hormonalne.';
@@ -157,7 +156,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Etap dojrzały - osiągany po od 1 do około 4 lat </h2>';
 		tresc+='<figure>';
-  tresc+='<img src="beagle_spi.jpg" alt="Śpiący Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/beagle_spi.jpg" alt="Śpiący Beagle" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Dorosły, spokojniejszy Beagle.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>W tym okresie psy mają już w pełni ukształtowaną psychikę, a pod względem fizycznym osiągnęły docelowy rozmiar i wygląd. ';
@@ -166,7 +165,7 @@ tresc+='</figure>';
 	tresc+='</p>';
 	tresc+='<h2>Etap starości </h2>';
 	tresc+='<figure>';
-  tresc+='<img src="old-dog.jpg" alt="Stary pies" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
+  tresc+='<img src="img/old-dog.jpg" alt="Stary pies" style="width:70%;display:block; margin-left: auto; margin-right: auto;">';
   tresc+='<figcaption style="text-align:center">Psia starość.</figcaption>';
 tresc+='</figure>';
 	tresc+='<p>O starości u psa możemy mówić w różnym wieku, w zależności od rasy i wielkości. ';
@@ -186,7 +185,7 @@ function pokazPorady(){
 	
 	tresc='<h2>Jak żywić Beagle?</h2>';
 	tresc+='<p>';
-  tresc+='<img src="infografika.jpg" style="width:20%" align="left" hspace="20">';
+  tresc+='  <img src="img/infografika.jpg" alt="Infografika żywienie" style="width:20%;float:left;margin:20px;" >';
 
   tresc+=' Beagle są znane ze swej żarłoczności. Niedopilnowany Beagle jest w stanie zjeść właściwie wszystko (może oprócz nudnej karmy, którą i tak je codziennie). ';
   tresc+='Należy pamiętać, co jest trujące dla psa i co należy trzymać poza jego zasięgiem, m. in. winogrona, rodzynki, awokado. ';
@@ -200,11 +199,20 @@ function pokazPorady(){
   tresc+='Możemy także karmić pupila jajkiem, ryżem, makaronem, płatkami owsianymi, większością warzyw i owoców (np. gotowana marchewka świetnie reguluje układ pokarmowy). ';
   tresc+='Psu możemy także dać kość do ogryzania, ale tylko pod warunkiem, że jest na tyle duża, że się nią nie udławi. ';
   tresc+='</p>';
+  tresc+='<h2> Sprawdź, czy Twój szczeniak ma poprawną masę ciała </h2>';
+  tresc+='<p>Podaj wiek szczenięcia (pełne miesiące):</p> <input type="text" id="wiek"> <br> ';
+  tresc+='<p>Wybierz płeć szczenięcia:</p>'+
+'<label for="male"><input type="radio" id="male" name="gender" value="male">Samiec</label><br>'+
 
-
+'<label for="female"><input type="radio" id="female" name="gender" value="female">Samica</label>';
+tresc+='<br>';
+tresc+='<input type="button" value="Sprawdź wagę psa" onclick =sprawdz_wage()>';
+tresc+='<br>';
+tresc+='<div id="waga">';
+tresc+='</div>';
 tresc+='<h2> Jak powinien wyglądać spacer?</h2>';
 tresc+='<p>';
-  tresc+='<img src="infografika2.jpg" style="width:20%" align="right" hspace="20">';
+  tresc+='  <img src="img/infografika2.jpg" alt="Infografika spacer" style="width:20%;float:right; margin:20px;">';
   tresc+='Są dwie szkoły wyprowadzania Beagla. Jedni mówią, żeby go spuszczać ze smyczy, inni, żeby nigdy przenigdy nie spuszczać, bo ucieknie. ';
   tresc+='Beagle to pies myśliwski, więc jeśli złapie trop, to pobiegnie za nim, nie zważając na nasze wołanie. ';
   tresc+='Jeżeli chcemy pupila spuszczać ze smyczy, warto już od małego ćwiczyć przywoływanie, i spuszczać psa tylko w miejscach, gdzie jest to bezpieczne. ';
@@ -226,7 +234,7 @@ tresc+='<p>';
 
 
 tresc+='<p>';
-tresc+='<img src="infografika3.jpg" style="width:20%" align="left" hspace="20">';
+tresc+='<img src="img/infografika3.jpg" alt="Infografika weterynarz" style="width:20%;float:left;margin:20px;">';
 
 tresc+='Oczywiście trzeba pamiętać o regularnych szczepieniach, odrobaczaniach i podawaniu preparatu chroniącego od kleszczy (doustnie, kropelki lub obroża). ';
   tresc+='Do głównych problemów zdrowotnych należą choroby uszu. Uszy należy regularnie czyścić patyczkami (za pierwszym razem poprośmy weterynarza, żeby pokazał, jak to robić). ';
@@ -246,47 +254,93 @@ tresc+='Oczywiście trzeba pamiętać o regularnych szczepieniach, odrobaczaniac
 	return tresc;
 }
 
+function sprawdz_wage(){
+	
+	var wiek=document.getElementById("wiek").value;
+	wiek=parseInt(wiek);
+	var plec;
+	if(document.getElementById("male").checked) {plec="samiec";}
+	else if(document.getElementById("female").checked) {plec="samica";}
+	if(plec=="samica"){
+		switch(wiek){
+			case 1: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 1.5kg'; break;
+			case 2: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 3.4kg'; break;
+			case 3: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 5kg'; break;
+			case 4: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 7kg'; break;
+			case 5: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 8kg'; break;
+			case 6: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 9kg'; break;
+			case 7: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 10kg'; break;
+			case 8: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 10.5kg'; break;
+			case 9: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 10.8kg'; break;
+			case 10: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 11kg'; break;
+			case 11: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 12kg'; break;
+			case 12: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 13kg'; break;
+			default: document.getElementById("waga").innerHTML='Prawidłowa masa ciała dorosłej samicy Beagle to około 13kg';
+			
+		}
+	}
+	else if(plec=="samiec"){
+		switch(wiek){
+			case 1: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 2kg'; break;
+			case 2: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 3-4kg'; break;
+			case 3: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 6kg'; break;
+			case 4: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 8kg'; break;
+			case 5: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 10kg'; break;
+			case 6: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 12kg'; break;
+			case 7: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 13kg'; break;
+			case 8: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 14kg'; break;
+			case 9: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 15kg'; break;
+			case 10: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 16kg'; break;
+			case 11: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 17kg'; break;
+			case 12: document.getElementById("waga").innerHTML='Prawidłowa masa ciała to około 18kg'; break;
+			default: document.getElementById("waga").innerHTML='Prawidłowa masa ciała dorosłego samca Beagle to około 18kg';
+			
+		}
+	}
+	
+}
+
 function pokazGalerie(){
 
 	tresc='<h2>Galeria zdjęć Bianki</h2>';
 tresc+='<div class="slideshow-container">'+
 '<div class="mySlides fade">'+
     '<div class="numbertext">1 / 7</div>'+
-    '<img src="img7.jpg" style="width:100%">'+
+    '<img src="img/img7.jpg" alt="Krótki spacerek" style="width:100%">'+
     '<div class="text">Krótki spacerek</div>'+
   '</div>'+
 
 
   '<div class="mySlides fade">'+
     '<div class="numbertext">2 / 7</div>'+
-    '<img src="img2.jpg" style="width:100%">'+
+    '<img src="img/img2.jpg" alt="Bianka w zimowej kurtce" style="width:100%">'+
     '<div class="text">Bianka w zimowej kurtce</div>'+
   '</div>'+
 
  '<div class="mySlides fade">'+
     '<div class="numbertext">3 / 7</div>'+
-    '<img src="img3.jpg" style="width:100%">'+
+    '<img src="img/img3.jpg" alt="Bianka pierwszy raz nad Zalewem" style="width:100%">'+
     '<div class="text">Bianka pierwszy raz nad Zalewem</div>'+
   '</div>'+
    '<div class="mySlides fade">'+
     '<div class="numbertext">4 / 7</div>'+
-    '<img src="img4.jpg" style="width:100%">'+
+    '<img src="img/img4.jpg" alt="Pierwszy dzień w nowym domu" style="width:100%">'+
     '<div class="text">Pierwszy dzień w nowym domu</div>'+
   '</div>'+
     '<div class="mySlides fade">'+
     '<div class="numbertext">5 / 7</div>'+
-    '<img src="img5.jpg" style="width:100%">'+
+    '<img src="img/img5.jpg" alt="Zabawa z większym kolegą" style="width:100%">'+
     '<div class="text">Zabawa z większym kolegą</div>'+
   '</div>'+
     
     '<div class="mySlides fade">'+
     '<div class="numbertext">6 / 7</div>'+
-    '<img src="img6.jpg" style="width:100%">'+
+    '<img src="img/img6.jpg" alt="Spanko w gościach na przyjęciu urodzinowym" style="width:100%">'+
     '<div class="text">Spanko w gościach na przyjęciu urodzinowym</div>'+
   '</div>'+
     '<div class="mySlides fade">'+
     '<div class="numbertext">7 / 7</div>'+
-    '<img src="img1.jpg" style="width:100%">'+
+    '<img src="img/img1.jpg" alt="Bianka w legowisku" style="width:100%">'+
     '<div class="text">Bianka w legowisku</div>'+
   '</div>'+
 
@@ -323,7 +377,7 @@ alert("Jeśli podałeś/aś prawidłowo swój adres e-mail, to wiadomość zosta
 }
 function pokazKontakt(){
 	tresc='<h2>Autorka</h2>';
-tresc+='<img src="autorki.jpg" style="width:60%;display:block; margin-left: auto; margin-right: auto;">';
+tresc+='<img src="img/autorki.jpg" style="width:60%;display:block; margin-left: auto; margin-right: auto;">';
 
 
 tresc+='<p>Nazywam się Alicja, a mój Beagle to Bianka. Jesteśmy razem od wakacji 2020. Opieka nad Bianką pochłania mi większość czasu. ';
